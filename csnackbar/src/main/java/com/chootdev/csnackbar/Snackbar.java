@@ -14,6 +14,8 @@ import android.widget.TextView;
  * Created by Choota on 1/25/17.
  */
 
+/*Updated to AndroidX*/
+
 public class Snackbar {
     // main context items
     private static Context snackContext;
