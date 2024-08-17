@@ -4,6 +4,12 @@ buildscript {
     repositories {
         jcenter()
         google()
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
+        maven {
+            url = uri("https://repository.axelor.com/nexus/repository/maven-public/")
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.1'
